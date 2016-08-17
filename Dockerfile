@@ -1,4 +1,5 @@
-FROM registry.access.redhat.com/jboss-webserver-3/webserver30-tomcat8-openshift:latest
+#FROM registry.access.redhat.com/jboss-webserver-3/webserver30-tomcat8-openshift:latest
+FROM registry.access.redhat.com/openshift3/ose
 
 USER 0
 
