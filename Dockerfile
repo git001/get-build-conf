@@ -3,5 +3,5 @@ FROM registry.access.redhat.com/openshift3/ose
 
 USER 0
 
-ENTRYPOINT ["/bin/sh]
+ENTRYPOINT ["/bin/sh"]
 CMD ["-c","while true; do echo hello world; sleep 30; done"]
